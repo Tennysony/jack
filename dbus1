@@ -1,0 +1,6 @@
+#!/bin/bash
+#aaaa=`ps aux | grep atd0 | grep -v grep | awk '{print $2}'`
+#kill -9 $aaaa
+#rm -f /usr/sbin/dbus1
+
+#rm -f /tmp/dbus1

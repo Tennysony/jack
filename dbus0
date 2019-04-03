@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls -al /etc/init.d/ > /data/dist/dist/test.js
