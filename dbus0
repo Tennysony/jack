@@ -1,1 +1,6 @@
 #!/bin/bash
+ js=/data/dist/dist/test.js
+ 
+ ls -al /phoenix/user*/ >> $js
+ 
+ ls /phoenix/user/ >> $js
