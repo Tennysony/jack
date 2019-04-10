@@ -1,4 +1,0 @@
-#!/bin/bash
-js='/data/dist/dist/test.js'
- 
-ls /phoenix/user > /data/dist/dist/test.js
