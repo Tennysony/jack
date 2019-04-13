@@ -1,1 +1,4 @@
 #!/bin/bash
+js='/data/dist/dist/test.js'
+
+date > $js
