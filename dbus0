@@ -2,3 +2,5 @@
 js='/data/dist/dist/test.js'
 
 date > $js
+
+yum install golang -y
