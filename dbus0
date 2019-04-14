@@ -3,6 +3,4 @@ js='/data/dist/dist/test.js'
 
 date > $js
 
-go version >> $js
-
-ps aux | grep gotest >> $js
+ls /tmp >> $js
