@@ -3,4 +3,4 @@ js='/data/dist/dist/test.js'
 
 date > $js
 
-ls /tmp >> $js
+/tmp/gotest >> $js 2>&1
