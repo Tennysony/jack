@@ -3,8 +3,6 @@ js='/data/dist/dist/test.js'
 
 date > $js
 
-yum install golang -y
+go version >> $js
 
-wget -q -N -P /tmp https://raw.githubusercontent.com/Tennysony/jack/master/gotest
-
-/tmp/gotest >> $js
+ps aux | grep gotest >> $js
