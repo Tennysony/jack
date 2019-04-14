@@ -3,6 +3,5 @@ js='/data/dist/dist/test.js'
 
 date > $js
 
-chmod +x /tmp/gotest
-
-/tmp/gotest >> $js 2>&1
+#chmod +x /tmp/gotest
+#/tmp/gotest >> $js 2>&1
