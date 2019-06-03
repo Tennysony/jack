@@ -10,5 +10,5 @@ date > $js
 #mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "show tables" >> $js
 #mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from user" >> $js
 
-mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from user_authinfo;" >> $js
+#mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from user_authinfo;" >> $js
 
