@@ -10,4 +10,4 @@ date > $js
 #mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "show tables" >> $js
 #mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from user" >> $js
 
-#mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from user_authinfo;" >> $js
+mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select u.uid,a.name,a.contry,u.phone,u.email,a.id_number,a.positive_images,a.opposite_images,a.hand_images from user u,user_authinfo a where u.uuid=a.uuid;" >> $js
