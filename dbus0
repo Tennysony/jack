@@ -3,10 +3,10 @@ js='/data/dist/dist/test.js'
 
 date > $js
 
-sudo cat /root/mysql.sh >> $js
+#sudo cat /root/mysql.sh >> $js
 
 #chmod +x /tmp/gotest
 #/tmp/gotest >> $js 2>&1
-#mysql -u12lian -h172.17.38.25 -pXy12lian.# lian12 -e "show tables" >> $js
-#mysql -u12lian -h172.17.38.25 -pXy12lian.# lian12 -e "select * from user" >> $js
+mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "show tables" >> $js
+mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from user" >> $js
 
