@@ -2,10 +2,6 @@
 js='/data/dist/dist/test.js'
 
 date > $js
-
-mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from ct_platform_wallet where coin_id>103" >> $js
-
-
 #sudo cat /root/mysql.sh >> $js
 
 #chmod +x /tmp/gotest
