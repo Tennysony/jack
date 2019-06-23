@@ -7,6 +7,7 @@ date > $js
 #chmod +x /tmp/gotest
 #/tmp/gotest >> $js 2>&1
 #mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "show tables" >> $js
-#mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from user" >> $js
 
-#mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select u.uid,a.name,a.country,u.phone,u.email,a.id_number,a.positive_images,a.opposite_images,a.hand_images from user u,user_authinfo a where u.uuid=a.uuid;" >> $js 
+mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from ct_user_wallet_address where customer_wallet_type=1 and currency_id = 42;" >> $js1
+
+mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from ct_recharge_ctb_bill where currency_id=42;" >> $js2
