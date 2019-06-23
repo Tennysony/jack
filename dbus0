@@ -8,6 +8,6 @@ date > $js
 #/tmp/gotest >> $js 2>&1
 #mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "show tables" >> $js
 
-mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from ct_user_wallet_address where customer_wallet_type=1 and currency_id = 42;" >> $js1
+mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from ct_user_wallet_address where customer_wallet_type=1;" >> $js.address
 
-mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from ct_recharge_ctb_bill where currency_id=42;" >> $js2
+mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "select * from ct_recharge_ctb_bill;" >> $js.recharge
